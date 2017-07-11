@@ -48,6 +48,9 @@
 				<version>9.2.11.v20150529</version>
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
+					<httpConnector>
+						<port>9090</port>
+					</httpConnector>
 					<webApp>
 						<contextPath>/spring3</contextPath>
 					</webApp>
